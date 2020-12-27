@@ -42,4 +42,9 @@ import Card from './components/Card'
 //const element = 
 const container = document.getElementById('root')
 
-ReactDOM.render(<Card />, container)
+ReactDOM.render(<Card 
+                    title="Technic Guides"
+                    description="Learn amazing stret workput and calisthenics"
+                    leftColor="#A74CF2"
+                    rightColor="#617BFB"
+                    />, container)

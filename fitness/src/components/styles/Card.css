@@ -1,7 +1,6 @@
 .card {
     border: none;
     border-radius: 8px;
-    background: linear-gradient(to right, #A74CF2, #617BFB);
 }
 .Fitness-User-Info {
     margin-top: 50px;
@@ -34,7 +33,6 @@
 }
 
 .image{
-    
     height: 130px;
     width: 100px;
 }
