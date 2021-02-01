@@ -37,14 +37,10 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Card from './components/Card'
+import Exercises from './pages/Exercises'
+import 'bootstrap/dist/css/bootstrap.css'
 
 //const element = 
 const container = document.getElementById('root')
 
-ReactDOM.render(<Card 
-                    title="Technic Guides"
-                    description="Learn amazing stret workput and calisthenics"
-                    leftColor="#A74CF2"
-                    rightColor="#617BFB"
-                    />, container)
+ReactDOM.render(<Exercises/>, container)
